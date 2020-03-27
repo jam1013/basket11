@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background: #F0EFEF;
+    font:14px/1.3 Arial,sans-serif;
+}
+
+#main{
+    
+}
+.menu{
+
+    height: 100px;
+    width: 100%;
+
+    z-index: 1;
+}
+#stropisanie {
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+#stropisanie a{
+    text-decoration: none;
+    color: #505050;
+}
+#stropisanie a:hover{
+    color:#909090;
+}
+.gallery{
+	
+	margin-left:310px;
+    position:sticky;
+    margin-top: 130px;
+    z-index: 4;
+}
+#block{
+    
+	position: relative;
+	background-color:white;
+	width:30.5%;
+	height:330px;
+	float:left;
+	margin:10px;
+    box-shadow: 0 0 15px #444;
+ 
+    
+}
+.gallery a {
+    height: 205px;
+    position: relative;
+    width: 250px;
+	float:left;
+	margin:12px;
+    color: black;
+        font-family: 'Russo One', sans-serif;
+
+}
+.gallery a img {
+    border: 8px solid #454545;
+    border-bottom: 20px solid #454545;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #444;
+}
+
+
+ a img {
+       transform: scale(1);
+     
+}
+
+
+.gallery a:hover img {
+   
+    height: 130%;
+    left: -35px;
+    top: -50px;
+    position: absolute;
+    width: 130%;
+    z-index: 4;
+    transform: rotate(0deg);
+    transition: all 2.0s ease;
+    border-radius:30px 30px 40px 40px;
+
+}
+
+#span1{
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    font-size: 1.4em;
+    color: gray;
+    padding: 4px;
+}
+pre{
+        font-family: 'Russo One', sans-serif;
+    color: #202020;
+}
+pre:hover{
+    color: crimson;
+}
+span:hover{
+    color: #434343 ;
+}
+#leftmain{
+    margin-top: 140px;
+    float: left;
+    height: 730px;   
+    width: 280px;
+    background:#EAE9E9;
+    margin-left: 10px;
+    box-shadow: 0px 0px 20px  3px #444;
+}
+#kategoria{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #404040;
+       font-family: 'Open Sans', arial;
+    
+}
+#inkategori{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+#inkategori a {
+        font-family: 'Russo One', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color:#303030;
+    font-size: 20px;
+}
+#inkategori a:hover{
+    color: #DA2A2D;
+    
+}
+#linia{
+    margin-left: 20px;
+    width: 235px;
+    height: 2px;
+    background: black;
+}
+  #color a{
+    position: relative;
+    top: 50px;
+    left: 1px;
+    text-decoration: none;
+    color: #303030;
+    
+    
+}
+#color a:hover{
+    color: #da2a2d;
+}
+#black{
+    height: 50px;
+    width: 50px;
+    background: black;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+     font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+#blue{
+   height: 50px;
+    width: 50px;
+    background: blue; 
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+    text-align: center;
+        font-family: 'Russo One', sans-serif;
+    
+}
+#green{
+    height: 50px;
+    width: 50px;
+    background: green;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+    text-align: center;
+        font-family: 'Russo One', sans-serif;
+}
+#red{
+    height: 50px;
+    width: 50px;
+    background: red;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+    text-align: center;
+        font-family: 'Russo One', sans-serif;
+}
+
+#white{
+    height: 50px;
+    width: 50px;
+    background: white;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+    text-align: center;
+        font-family: 'Russo One', sans-serif;
+}
+#yellow{
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+    text-align: center;
+        font-family: 'Russo One', sans-serif;
+}
+#grey{
+    height: 50px;
+    width: 50px;
+    background: grey;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+        font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+#orange{
+    height: 50px;
+    width: 50px;
+    background: orange;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+   text-align: center;
+        font-family: 'Russo One', sans-serif;
+}
+#purple{
+    height: 50px;
+    width: 50px;
+    background: purple;
+    float: left;
+    margin: 20px;
+    border-radius:25px;
+   text-align: center;
+        font-family: 'Russo One', sans-serif;
+
+}
+#perehod{
+       position: absolute;
+    top: 1600px;
+    right: 570px; 
+    height: 35px;
+    width: 30px;
+   color:#303030;
+    border:1px solid black;
+     text-align: center;
+    
+}
+#perehod a{
+     text-decoration: none;
+  color:#303030;
+}
+#perehod a:hover{
+    color:#707070;
+}
+#perehod2{
+       position: absolute;
+    top: 1600px;
+    right: 520px; 
+    height: 35px;
+    width: 30px;
+   color:#303030;
+    border:1px solid black;
+     text-align: center;
+    
+}
+#perehod2 a{
+     text-decoration: none;
+  color:#303030;
+}
+#perehod2 a:hover{
+    color:#707070;
+}
+#perehod21{
+       position: absolute;
+    top: 1270px;
+    right: 570px; 
+    height: 35px;
+    width: 30px;
+   color:#303030;
+    border:1px solid black;
+     text-align: center;
+    
+}
+#perehod21 a{
+     text-decoration: none;
+  color:#303030;
+}
+#perehod21 a:hover{
+    color:#707070;
+}
+#perehod22{
+       position: absolute;
+    top: 1270px;
+    right: 520px; 
+    height: 35px;
+    width: 30px;
+   color:#303030;
+    border:1px solid black;
+     text-align: center;
+    
+}
+#perehod22 a{
+     text-decoration: none;
+  color:#303030;
+}
+#perehod22 a:hover{
+    color:#707070;
+}

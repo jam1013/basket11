@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
+#content{
+	width:100%;
+position:fixed;
+	 z-index: 20;
+}
+
+
+
+#nav{margin-left: 126px;
+	font-family: 'Open Sans', arial;
+    z-index: 20;
+    position: fixed;
+       
+    
+}
+
+#nav li{
+	float:left; /* все ссылки идут слева на право */
+    position:relative;
+    list-style:none; /* убираем точки */
+    background:#fff;
+	width:175px;
+    height: 80px;
+    
+}
+
+#nav a{
+    text-decoration:none;
+    display:block; /* делаем блочным элементов тег "a" */
+    padding-top:25px;
+    height: 25px;
+    padding-bottom: 28px;
+    text-align: center;
+    color:#303030;
+    font-size: 1.4em;
+    
+
+}
+
+#active a, #nav li:hover > a{
+    background-color: #606060;
+    padding-bottom: 30.5px;
+ 
+    color:white;
+    transition: all 1.0s ease;
+    
+}
+
+#nav ul {
+	visibility:hidden; /* скрываем выпадающее меню */
+    padding:0;  
+    position:absolute;
+ 
+}
+
+#nav li:hover > ul{
+    visibility:visible; /* показываем выпадающее меню при наведении */
+	position: relative;
+     z-index: 1;
+    
+}
+
+#nav ul a{
+	padding-bottom:35px ; /* делаем отступы выпадающего меню меньше от основного */
+    text-align: center;
+}
+
+
+
+
+
+
+
+#nav > li ul li{
+	border-top: 3px solid #404040;/
+	
+}
+#search-box{
+      
+    left: 264px;
+    position: relative;
+    top:80px;
+    float:right;
+    background: #454545;
+    height:60px;
+    padding: 7px;
+}
+.search-btn{
+
+    color:white;
+    float: right;
+    width: 50px;
+    height: 55px;
+    background: #454545;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+    font-size:20px;
+}
+.search-txt{
+    float: left;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-top: 10px;
+    line-height:40px;
+    width: 0px;
+    border: none;
+    background:none;
+    outline: none;
+    padding: 0;
+    
+}
+#search-box:hover >.search-txt {
+    width: 198px;
+  
+}
+#reg{
+   float: right;
+ background: #454545;
+   color: white;
+    width:100px;
+    text-decoration: none;
+    padding: 28.5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+#reg2{
+    position: relative;
+ 
+    text-align: center;
+    width: 50px;
+     padding: 28.5px;
+     float: right;
+    color: white;
+    background: #454545;
+    text-decoration: none;
+    font-size: 18px;
+}
+#reg:hover{
+    background: #202020;
+    color: #f0f0f0;
+}
+#reg2:hover{
+     background: #202020;
+   color: #f0f0f0;
+}
+
+#logo{
+    height: 80px;
+    width: 125px;
+    float: left;
+    background: white;
+
+}
+footer{
+    margin-top: 100px;
+    float: left;
+    background-color: #454545;
+    width: 99%;
+    height: 100px;
+    padding: 1%;
+    border-top: 5px solid #59595a;
+       font-family: 'Russo One', sans-serif;
+}
+#niz{border-top: 2px solid #59595a;
+    margin-top: -15px;
+    color:#fff;
+    float: right;
+    font-size: 2em;
+    background: #454545;
+    height: 46px;
+    padding-left:40px;
+    width: 220px;
+}
+#niz>span{
+     font-family: 'Suez One', serif;
+
+}
+#Fullniz{
+        font-family: 'Russo One', sans-serif;
+    font-size: 1.2em;
+}
+#Fullniz>a{
+     color: white;
+ 
+    margin: 2%;
+}
+#Fullniz>a:hover{
+    border-bottom: 1px solid Silver;
+    color:#aeaeae;
+}
+#nizright{
+    float: left;
+    margin-left: 2%;
+    font-size: 1.1em;
+    margin-top: 20px;
+    
+}
+#nizright>a{
+    color: white;
+}
+#nizright>a:hover{
+    border-bottom: 1px solid Silver;
+    color:#aeaeae;}
+#social{
+     position:relative;
+     left:300px;
+     float: right;
+     padding: 20px;
+    padding-right:80px;
+     height: 40px;
+      color: black;
+    background:#454545;
+   
+    margin-top: 10px;
+    
+}
+#social>a{
+    border-radius: 50%;
+    background-color:#fff;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    float: right;
+    color: rgba(40, 40, 40, 0.95);
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.3em;
+    
+}
+#social>a:hover{
+background-color: #d2dada;
+}
